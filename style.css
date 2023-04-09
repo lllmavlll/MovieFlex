@@ -214,9 +214,6 @@ header .logo img {
   letter-spacing: 1px;
 }
 
-.movies {
-  /* display: grid; */
-}
 .movie-card {
   width: 100%;
   display: flex;
