@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image" href="./Assets/favi.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>MovieFlix</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html"><img src="./Assets/logo.png" alt="" /></a>
+      </div>
+      <div class="searchbox">
+        <button id="btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <input
+          type="text"
+          name="search"
+          id="searchBox"
+          placeholder="search for movies"
+        />
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>home</li>
+          <li>about</li>
+          <li>News</li>
+          <li><i class="fa-regular fa-bell"></i></li>
+          <li>
+            <i class="fa-regular fa-user"></i>
+          </li>
+          <li><i class="fa-regular fa-heart"></i></li>
+        </ul>
+      </div>
+      <div class="ham">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+    <div class="genre">
+      <ul>
+        <li id="mov">movies</li>
+        <li>tv series</li>
+        <li>horror</li>
+        <li>cartoons</li>
+        <li>anime</li>
+        <li>new movies</li>
+      </ul>
+    </div>
+    <div class="hero">
+      <div class="hero-txt">
+        <h1>INTERSTELLAR</h1>
+        <p>
+          When Earth becomes uninhabitable in the future, a farmer and ex-NASA
+          pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a
+          team of researchers, to find a new planet for humans. <br />
+          <!--      A flim by
+          <a
+            href="https://www.google.com/search?safe=strict&sxsrf=AJOqlzVpI7VMClDydBMJnEPf4EgnYGV_qA:1677224359437&q=Christopher+Nolan&si=AEcPFx5y3cpWB8t3QIlw940Bbgd-HLN-aNYSTraERzz0WyAsdPdPQxexGjlN6a_a963ePHzgcWDxt3vFnmMyJZZkEiMLUCOE64UUP1-It-hKD-JUQ8y5bV_i9lzgNllu7XBosc0Ohf0FOrl3xZRpfihRFlTsRsw48VaiFdLYE4DVr35HBgyKqC5zdrRRbiZfn1H7QBRAf0WV2dIxXVH30ibyrnkKLKqzxA%3D%3D&sa=X&ved=2ahUKEwiaiJzR0639AhUyB7cAHdv5CIwQmxMoAHoECH4QAg"
+          >
+            Christopher Nolan</a
+          > -->
+        </p>
+
+        <div class="hero-btn">
+          <button id="h-btn">learn more</button>
+          <button id="h-btn">
+            <a
+              href="https://youtu.be/zSWdZVtXT7E"
+              target="_blank"
+              style="text-decoration: none"
+              >watch trailer</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="search-nav">
+      <button id="btn1">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+      <input
+        type="text"
+        name="search"
+        id="searchBox1"
+        placeholder="search for movies"
+      />
+    </div>
+    <div class="pop" id="pop">
+      <h2>popular movies</h2>
+      <div class="pop-cards">
+        <div class="pop-card-i">
+          <img src="./Assets/martian.webp" alt="" />
+          <p>The Martian</p>
+        </div>
+        <div class="pop-card-i">
+          <img src="./Assets/gravity.jpg" alt="" />
+          <p>Gravity</p>
+        </div>
+        <div class="pop-card-i">
+          <img src="./Assets/incep.jpg" alt="" />
+          <p>Inception</p>
+        </div>
+        <div class="pop-card-i">
+          <img src="./Assets/sui.jpg" alt="" />
+          <p>Suicide squad</p>
+        </div>
+        <div class="pop-card-i">
+          <img src="./Assets/split.jpg" alt="" />
+          <p>split</p>
+        </div>
+      </div>
+
+      <h2>popular Tv Shows</h2>
+      <div class="pop-cards">
+        <div class="pop-card-i">
+          <img src="./Assets/BB.webp" alt="" />
+          <p>Breaking Bad</p>
+        </div>
+        <div class="pop-card-i">
+          <img src="./Assets/peaky.jpg" alt="" />
+          <p>Peaky Blinders</p>
+        </div>
+        <div class="pop-card-i">
+          <img src="./Assets/BS.jpg" alt="" />
+          <p>Black sils</p>
+        </div>
+        <div class="pop-card-i">
+          <img src="./Assets/vikings.jpg" alt="" />
+          <p>Vikings</p>
+        </div>
+        <div class="pop-card-i">
+          <img src="./Assets/mh.jpg" alt="" />
+          <p>Mind Hunter</p>
+        </div>
+      </div>
+    </div>
+    <!---------------------movie-card-display ----------------------->
+    <div class="movies" id="movie">
+      <div class="movie-card"></div>
+    </div>
+    <!-- -----------------------FOOTER----------------------->
+    <footer>
+      <div class="row">
+        <div class="col">
+          <a href="./index.html" class="logo"
+            ><img src="./Assets/logo.png" alt="" width="60px"
+          /></a>
+          <p>
+            All your favrouite <br />
+            Movies in one place
+          </p>
+        </div>
+        <div class="col">
+          <h2>genre</h2>
+          <ul>
+            <li>movies</li>
+            <li>tv series</li>
+            <li>horror</li>
+            <li>cartoons</li>
+            <li>anime</li>
+            <li>new movies</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>support</h2>
+          <ul>
+            <li>
+              <input type="text" placeholder="Contact Us" />
+            </li>
+            <li>
+              <input type="text" placeholder="Join Us" />
+            </li>
+          </ul>
+        </div>
+        <div class="col socials">
+          <h2>social</h2>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/mahesh-k-n-732121251"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/lllmavlll?tab=repositories"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    sc
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./ignore/apikey.js"></script>
+  </body>
+</html>
