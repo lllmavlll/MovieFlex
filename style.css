@@ -429,7 +429,7 @@ footer .row .col h2:hover {
     padding-top: 23px;
   }
   header .navbar li {
-    font-size: 16px;
+    font-size: 13px;
     padding: 20px 16px;
     text-align: center;
     font-weight: 00;
@@ -452,16 +452,16 @@ footer .row .col h2:hover {
   .searchbox #searchBox {
     right: 20px;
     height: 35px;
-    width: 65%;
+    width: 200px;
   }
   .searchbox #btn {
     font-size: 20px;
     position: absolute;
-    left: 82px;
+    left: 110px;
     top: 7px;
   }
   .searchbox #searchBox::placeholder {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .search-nav #searchBox1 {
