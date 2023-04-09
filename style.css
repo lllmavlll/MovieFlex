@@ -13,6 +13,7 @@
 
 body {
   background-color: var(--color-1);
+  width: 100%;
 }
 header {
   width: 100%;
@@ -454,7 +455,7 @@ footer .row .col h2:hover {
   .searchbox #btn {
     font-size: 20px;
     position: absolute;
-    left: 110px;
+    left: 100px;
     top: 7px;
   }
   .searchbox #searchBox::placeholder {
