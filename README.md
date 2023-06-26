@@ -25,3 +25,29 @@ You can go ahead and explore the website and navigate through its different sect
 
 ### To view the page live, click on the link below.
 https://lllmavlll.github.io/MovieFlix/
+
+# Demo/output
+![Screenshot (86)](https://github.com/lllmavlll/MovieFlix/assets/104993092/789e7f9e-806c-4989-80d2-c305eee7f24f)
+![Screenshot (87)](https://github.com/lllmavlll/MovieFlix/assets/104993092/eaa96905-1396-4c8f-be9f-459c01659468)
+
+## Movie cards after searching
+![Screenshot (88)](https://github.com/lllmavlll/MovieFlix/assets/104993092/1e5f8e02-7335-43c7-b7d5-f99132fbb573)
+
+
+## Tablet View
+
+![Screenshot (93)](https://github.com/lllmavlll/MovieFlix/assets/104993092/d4eefae3-8c31-40ea-81fe-a83205d286da)
+
+## Mobile View
+![Screenshot (90)](https://github.com/lllmavlll/MovieFlix/assets/104993092/41e9e454-14a1-40f0-9350-d2830b7ca054)
+![Screenshot (91)](https://github.com/lllmavlll/MovieFlix/assets/104993092/77323653-5efe-4cca-a602-74b565d4077d)
+
+
+
+
+
+# Feedback and Support
+If you have any feedback, or suggestions, or need support with this project, please feel free to contact me at maheshdsu86@gmail.com.
+
+If you like the project, Star ⭐ this repo to support the project.
+
